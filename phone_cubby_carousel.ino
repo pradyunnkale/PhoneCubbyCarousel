@@ -3,9 +3,9 @@
 
 
 
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-#include <Keypad.h>
+#include <./ext/Wire/src/Wire.h>
+#include <./ext/LiquidCrystal_I2C/LiquidCrystal_I2C.h>
+#include <./ext/Keypad/src/Keypad.h>
 #define MAX_SLOTS 30  // Number of slots to store passwords
 const int STEPS_PER_SLOT = 6400/MAX_SLOTS;  // Number of steps per slot (adjust as needed)
 // Define the keypad layout
